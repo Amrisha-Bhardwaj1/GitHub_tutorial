@@ -17,6 +17,8 @@ Configuration steps on Git.
 git config --global user.name "User name"
 <br>
 git config --global user.email "amrishabhardwaj1@gmail.com"
+<br>
+git config --list ----> Gives the complete details of configuration done on the git bash till now.
 
 <br>
 
