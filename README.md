@@ -24,4 +24,10 @@ git config --list ----> Gives the complete details of configuration done on the 
 
 These commands is like identifiers of the commits that an author will do and just helps to keep an information of the author who tries to do the commit.
 
+Basic git commands:
+
+git clone <link>   ---> Clones the github repository(project) to the local machine.
+git status    --> gives the status of the local with respect to the remote/github .
+
+
 
