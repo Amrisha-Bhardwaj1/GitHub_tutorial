@@ -30,10 +30,7 @@ git clone <link>   ---> Clones the github repository(project) to the local machi
 git status    --> gives the status of the local with respect to the remote/github .
 
 
-
-
-Init Commands 
-
+Init commands 🆕
 git init This command is used to turn a normal folder into git repository by creating a .git file)
 <br>
 Create  a repo in the github and using url we can push our folder on github.
@@ -50,6 +47,45 @@ git push -u origin main (-u sets the upstream brach to origin/main) this command
 <br>
 This origin is just a name of the remote repo.
 
+<br>
+Branch merge 🌿
+<br>
+
+by command line we can do it like.
+<br>
+check if there is any conflict between the branches and resolve it if any.
+<br>
+git diff <--other branch-->
+<br>
+If there is any difference you can use the editor to resolve it and you can decide manually which changes you want to keep.
+<br>
+Then we can merge the current branch to the required branch(like main) 
+<br>
+git merge <--other branch  name>
+<br>
+
+Way 2 to merge two branches. --> Use pull request and fetch the changes on the remote branch and then merge request is generated to merge with the other branch.
+<br>
+
+UNDOING CHANGES ↩️
+
+CASE 1 : staged changes(add)
+<br>
+git reset <--filename-->  if you have done changes in one file.
+<br>
+git reset   (for multiple file changes)
+<br>
+CASE 2 : commit changes.
+<br> 
+For reverting to just previous commit.
+<br>
+git reset HEAD ~1
+<br>
+For reverting multiple commits you need to get the hash of the commit you want to revert to .
+<br>
+git log (helps to fetch the history of commits.)
+<br>
+git reset --hard <commit-hash> (this commit hash can be pasted from the git log details, --hard is used to view that reset in the vs code if you are using it else you can remove it.)
 
 
 
