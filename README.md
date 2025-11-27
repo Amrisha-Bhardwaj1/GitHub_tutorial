@@ -9,7 +9,7 @@ These projects/code is pushed in the form of folders called repository.
 
 GitHub - It is a website that is required to manage and store the code on cloud. Also known as remote.
 
-Commands -->
+CONFIG COMMANDS ⚙️ 
 <br>
 pwd --> Helps to know the present working directory.
 <br>
@@ -24,13 +24,14 @@ git config --list ----> Gives the complete details of configuration done on the 
 
 These commands is like identifiers of the commits that an author will do and just helps to keep an information of the author who tries to do the commit.
 
-Basic git commands:
+COMMANDS TO FETCH FROM REPO TO LOCAL 🧰
 
 git clone <link>   ---> Clones the github repository(project) to the local machine.
 git status    --> gives the status of the local with respect to the remote/github .
 
 
-Init commands 🆕
+INIT COMMANDS 🆕
+<br>
 git init This command is used to turn a normal folder into git repository by creating a .git file)
 <br>
 Create  a repo in the github and using url we can push our folder on github.
@@ -48,7 +49,7 @@ git push -u origin main (-u sets the upstream brach to origin/main) this command
 This origin is just a name of the remote repo.
 
 <br>
-Branch merge 🌿
+BRANCH MERGE 🌿
 <br>
 
 by command line we can do it like.
