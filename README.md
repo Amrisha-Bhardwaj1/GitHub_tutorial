@@ -1,5 +1,5 @@
 # GitHub_tutorial
-Just for understanding the working of git and git commands.
+"Forgot Git again? 😂 Don’t worry — let me help you relearn it 🔁"
 
 HERE WE WILL UNDERSTAND ALL THE IMPORTANT COMMANDS THAT ARE REQUIRED TO USE GIT HUB AND GIT .
 <br>
