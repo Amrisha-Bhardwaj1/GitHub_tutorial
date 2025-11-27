@@ -31,3 +31,28 @@ git status    --> gives the status of the local with respect to the remote/githu
 
 
 
+
+Init Commands 
+
+git init This command is used to turn a normal folder into git repository by creating a .git file)
+<br>
+Create  a repo in the github and using url we can push our folder on github.
+<br>
+git remote add origin <link> (tells the git which remote repo we will push the changes to.)
+<br>
+git remote -v (verify remote)
+<br>
+git branch (to check branch of github)
+<br>
+git branch -M main (modify the branch name to main by default it is master)
+<br>
+git push -u origin main (-u sets the upstream brach to origin/main) this command will set the upstream so all the changes will be pushed to origin/main
+<br>
+This origin is just a name of the remote repo.
+
+
+
+
+
+
+
