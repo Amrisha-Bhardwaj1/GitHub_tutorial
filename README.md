@@ -9,7 +9,7 @@ These projects/code is pushed in the form of folders called repository.
 
 GitHub - It is a website that is required to manage and store the code on cloud. Also known as remote.
 
-CONFIG COMMANDS ⚙️ 
+1. SETUP AND CONFIGURATION ⚙️
 <br>
 pwd --> Helps to know the present working directory.
 <br>
@@ -19,18 +19,14 @@ git config --global user.name "User name"
 git config --global user.email "example@gmail.com"
 <br>
 git config --list ----> Gives the complete details of configuration done on the git bash till now.
+<br>
+👉 Before anything else, Git must know who you are.
 
 <br>
 
 These commands is like identifiers of the commits that an author will do and just helps to keep an information of the author who tries to do the commit.
 
-COMMANDS TO FETCH FROM REPO TO LOCAL 🧰
-
-git clone <link>   ---> Clones the github repository(project) to the local machine.
-git status    --> gives the status of the local with respect to the remote/github .
-
-
-INIT COMMANDS 🆕
+2. Creating / Initializing a Repo 🆕
 <br>
 git init This command is used to turn a normal folder into git repository by creating a .git file)
 <br>
@@ -46,12 +42,37 @@ git branch -M main (modify the branch name to main by default it is master)
 <br>
 git push -u origin main (-u sets the upstream brach to origin/main) this command will set the upstream so all the changes will be pushed to origin/main
 <br>
-This origin is just a name of the remote repo.
+NOTES ----> This origin is just a name of the remote repo.
+<br>
+👉 This is local → remote.
+<br>
+
+4. CLONING AND WORKING WITH REMOTE 🧰
+
+git clone <link>   ---> Clones the github repository(project) to the local machine.
+git status    --> gives the status of the local with respect to the remote/github .
+
+👉 This is remote → local.
 
 <br>
-BRANCH MERGE 🌿
+
+4. Branching 🌿
+<br>
+git branch ---> (Checks the branches on the repo.)
+<br>
+git checkout <--branchname> (Switches to the branch)
+<br>
+git checkout -b <--branchname> (Creates a new branch)
+<br>
+git switch <--branchname> (almost similar to git checkout but used only for branches , and not checkout files or anything)
+<br>
+git switch -c <--branchname> (create new branch)
+<br>
+👉 Before merge, branches should come first.
 <br>
 
+6. Merging 🔀
+<br>
 by command line we can do it like.
 <br>
 check if there is any conflict between the branches and resolve it if any.
@@ -67,8 +88,11 @@ git merge <--other branch  name>
 
 Way 2 to merge two branches. --> Use pull request and fetch the changes on the remote branch and then merge request is generated to merge with the other branch.
 <br>
+👉 Logical continuation after branching.
+<br>
 
-UNDOING CHANGES ↩️
+6. UNDOING AND FIXING MISTAKES ↩️
+   <br>
 
 CASE 1 : staged changes(add)
 <br>
